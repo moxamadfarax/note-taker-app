@@ -1,140 +1,97 @@
-# 11 Express.js: Note Taker
+# team-profile-generator ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Your Task
+# Description
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This project utilizes technologies and dependencies like node, jest, and inquirer to genereate an html page with cards
+containing information about ones team of employees as well as their own information.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+https://github.com/moxamadfarax/note-taker-app
 
+- This is a screenshot of the launched app through the the terminal.
 
-## User Story
+  ![Getting Started](assets/screenshot.PNG)
 
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
+## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Acceptance Criteria
+# Installation
 
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
+The required software that needs to be installed to use this project node, and express. To install node js navigate to their website from the browser and install the version you like. To install express, open the command line and type "npm i express". Give it some time to fully install. To install jest, open the command line and type "npm i jest". Also give this some time to install.
 
+# Usage
 
-## Mock-Up
+If you have not yet downloaded the required software needed to use this project, then refer to the installation information above. If you have, proceed to open the command line and navigate to this projects folder. In the command line type "node app.js" and you will be prompted with a series of questions. Once you have finished answering the questions, an html file with your inputted information will be generated simialiar to that in the photo above. If you are in a code editor, you can view this in the default browser.
 
-The following images show the web application's appearance and functionality:
+# Contributors
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+I am currently the lone contributor.
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+# License
 
+This project uses the MIT license.
 
-## Getting Started
+# Tests
 
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
+The steps needed to run the test are as follows:
+Open the command line and navigate to the tests folder. There you can run the command "npm test" for the test to run
+The tests will be ran across four different files in the folder. The expected result is that 13 tests in total pass and none fail.
 
-The following HTML routes should be created:
+# Questions
 
-* `GET /notes` should return the `notes.html` file.
+Contact me at mohamedfarah0508@gmail.com for any questions.
 
-* `GET *` should return the `index.html` file.
+# team-profile-generator ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-The following API routes should be created:
+# Description
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+This project utilizes technologies and dependencies like node, jest, and inquirer to genereate an html page with cards
+containing information about ones team of employees as well as their own information.
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+https://github.com/moxamadfarax/team-profile-generator
 
+- This is a screenshot of the comamand line prompts given.
 
-## Bonus
+  ![Getting Started](assets/screenshot.PNG)
 
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
+- This is a screenshot of what is generated.
 
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+  ![Getting Started](assets/screenshot1.PNG)
 
+- The link below is a demo video showing how the application works.
 
-## Grading Requirements
+  https://drive.google.com/file/d/1Uqjp0mzGXJNeS3LmIU7lWuwZbf2nNcUK/view
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Table of Contents
 
-This Challenge is graded based on the following criteria: 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
+# Installation
 
-### Technical Acceptance Criteria: 40%
+The required software that needs to be installed to use this project node, jest and inquirer, and preferably software that allows you to view the html file generated in real time, like a code editor. To install node js navigate to their website from the browser and install the version you like. To install inquirer, open the command line and type "npm i inquirer@8.2.4". Give it some time to fully install. To install jest, open the command line and type "npm i jest". Also give this some time to install.
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+# Usage
 
-  * Application front end must connect to an Express.js back end.
+If you have not yet downloaded the required software needed to use this project, then refer to the installation information above. If you have, proceed to open the command line and navigate to this projects folder. In the command line type "node app.js" and you will be prompted with a series of questions. Once you have finished answering the questions, an html file with your inputted information will be generated simialiar to that in the photo above. If you are in a code editor, you can view this in the default browser.
 
-  * Application back end must store notes that have a unique id in a JSON file.
+# Contributors
 
-  * Application must be deployed to Heroku.
+I am currently the lone contributor.
 
+# License
 
-### Deployment: 36%
+This project uses the MIT license.
 
-* Application deployed at live URL.
+# Tests
 
-* Application loads with no errors.
+There are no tests to run for this application currently.
 
-* Application GitHub URL submitted.
+# Questions
 
-* GitHub repository contains application code.
-
-
-### Application Quality: 11%
-
-* Application console is free of errors.
-
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-### Bonus: +10 Points
-
-* Application allows users to delete notes.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Contact me at mohamedfarah0508@gmail.com for any questions.
