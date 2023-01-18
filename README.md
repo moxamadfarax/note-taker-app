@@ -1,9 +1,8 @@
-# team-profile-generator ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+# note-taker-app ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Description
 
-This project utilizes technologies and dependencies like node, jest, and inquirer to genereate an html page with cards
-containing information about ones team of employees as well as their own information.
+This project utilizes technologies and dependencies like node, and express to genereate
 
 https://github.com/moxamadfarax/note-taker-app
 
