@@ -8,11 +8,11 @@ https://github.com/moxamadfarax/note-taker-app
 
 - This is a screenshot of the launched apps homepage through the the terminal.
 
-  ![Getting Started](assets/screenshot.PNG)
+  ![Getting Started](img/screenshot.PNG)
 
 - This is a screenshot of the notes app in use.
 
-  ![Getting Started](assets/screenshot1.PNG)
+  ![Getting Started](img/screenshot1.PNG)
 
 ## Table of Contents
 
