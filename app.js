@@ -31,6 +31,42 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
+// Function that creates the note.
+function createNote(body, notesInfo) {
+  const newNote = body;
+
+  // Checks if array or not.
+  if (!Array.isArray(notesInfo)) notesInfo = [];
+  if (notesInfo.length === 0) notesInfo.push(0);
+
+  body.id = notesInfo[0];
+  notesInfo[0]++;
+  notesInfo.push(newNote);
+
+  // Appending data into file.
+  fs.writeFileSync(
+    path.join(__dirname, "./db/db.json"),
+    JSON.stringify(notesInfo, null, 2)
+  );
+  return newNote;
+}
+
+// Function to delete notes.
+function deleteNote(id, notesArray) {
+  // For loop for making multiple notes.
+  for (let i = 0; i < notesArray.length; i++) {
+    let note = notesArray[i];
+    if (note.id == id) {
+      notesArray.splice(i, 1);
+      fs.writeFileSync(
+        path.join(__dirname, "./db/db.json"),
+        JSON.stringify(notesArray, null, 2)
+      );
+      break;
+    }
+  }
+}
+
 // Setting up the route that handles HTTP POST requests
 app.post("/api/notes", (req, res) => {
   const newNote = createNote(req.body, notes);

@@ -6,9 +6,13 @@ This project utilizes technologies and dependencies like node, and express to ge
 
 https://github.com/moxamadfarax/note-taker-app
 
-- This is a screenshot of the launched app through the the terminal.
+- This is a screenshot of the launched apps homepage through the the terminal.
 
   ![Getting Started](assets/screenshot.PNG)
+
+- This is a screenshot of the notes app in use.
+
+  ![Getting Started](assets/screenshot1.PNG)
 
 ## Table of Contents
 
@@ -19,11 +23,11 @@ https://github.com/moxamadfarax/note-taker-app
 
 # Installation
 
-The required software that needs to be installed to use this project node, and express. To install node js navigate to their website from the browser and install the version you like. To install express, open the command line and type "npm i express". Give it some time to fully install. To install jest, open the command line and type "npm i jest". Also give this some time to install.
+The required software that this app utilizes is node, and express.
 
 # Usage
 
-If you have not yet downloaded the required software needed to use this project, then refer to the installation information above. If you have, proceed to open the command line and navigate to this projects folder. In the command line type "node app.js" and you will be prompted with a series of questions. Once you have finished answering the questions, an html file with your inputted information will be generated simialiar to that in the photo above. If you are in a code editor, you can view this in the default browser.
+If you have not yet downloaded the required software needed to use this project, then refer to the installation information above. proceed to open the command line and navigate to this projects folder. In the command line type "node app.js" there will be a link you can click
 
 # Contributors
 
