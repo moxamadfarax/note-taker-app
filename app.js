@@ -30,3 +30,20 @@ app.get("/notes", (req, res) => {
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
+
+// Setting up the route that handles HTTP POST requests
+app.post("/api/notes", (req, res) => {
+  const newNote = createNote(req.body, notes);
+  res.json(newNote);
+});
+
+// Setting up the route that handles HTTP DELETE requests
+app.delete("/api/notes/:id", (req, res) => {
+  deleteNote(req.params.id, notes);
+  res.json(true);
+});
+
+// Listening on port
+app.listen(PORT, () => {
+  console.log(`Server available on http://localhost:${PORT}`);
+});
