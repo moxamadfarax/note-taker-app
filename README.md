@@ -27,7 +27,7 @@ The required software that this app utilizes is node, and express.
 
 # Usage
 
-If you have not yet downloaded the required software needed to use this project, then refer to the installation information above. proceed to open the command line and navigate to this projects folder. In the command line type "node app.js" there will be a link you can click
+Click thislink
 
 # Contributors
 
