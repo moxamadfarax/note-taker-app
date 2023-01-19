@@ -4,7 +4,7 @@
 
 This project utilizes technologies and dependencies like node and express for backend functionality and heroku to host the server and app.
 
-https://github.com/moxamadfarax/note-taker-app
+https://app-notes.herokuapp.com/
 
 - This is a screenshot of the launched apps homepage through the the terminal.
 
